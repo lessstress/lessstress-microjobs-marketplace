@@ -232,7 +232,7 @@ INSERT INTO `<<prefix>>options` (`option_name`, `option_value`) VALUES
 ('contact_latitude', '40.7344458'),
 ('contact_longitude', '-73.86704922'),
 ('footer_text', 'Aenean sodales mattis augue. Morbi euismod, felis at volutpat volutpat, quam lectus porttitor massa, tur ex a neque pulvinar pulvinar.'),
-('copyright_text', '2022 Bylancer, All right reserved'),
+('copyright_text', '2022 Lessstress, All right reserved'),
 ('facebook_link', 'https://www.facebook.com/danger.hope'),
 ('twitter_link', 'https://www.twitter.com/thebylancer'),
 ('googleplus_link', 'https://plus.google.com/+bylancer'),

@@ -6,7 +6,7 @@ overall_header($pagetitle);
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2><?php _e("We found") ?> <?php _esc($usersfound)?> <?php _e("Freelancers") ?></h2>
+                    <h2><?php _e("We found") ?> <?php _esc($usersfound)?> <?php _e("Stresslessers") ?></h2>
                     <!-- Breadcrumbs -->
                     <nav id="listing-breadcrumbs">
                         <ul>
@@ -95,10 +95,6 @@ overall_header($pagetitle);
                         <div class="radio margin-right-20">
                             <input class="with-gap" type="radio" name="gender" id="Female" value="Female" <?php if($gender == "Female") { echo "checked"; }?> />
                             <label for="Female"><span class="radio-label"></span><?php _e("Female") ?></label>
-                        </div><br>
-                        <div class="radio margin-right-20">
-                            <input class="with-gap" type="radio" name="gender" id="Other" value="Other" <?php if($gender == "Other") { echo "checked"; }?> />
-                            <label for="Other"><span class="radio-label"></span><?php _e("Other") ?></label>
                         </div>
                     </div>
                     <div class="sidebar-widget">
