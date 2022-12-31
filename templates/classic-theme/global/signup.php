@@ -50,11 +50,11 @@ overall_header(__("Register"));
                     <div class="account-type">
                         <div>
                             <input type="radio" name="user-type" id="freelancer-radio" class="account-type-radio" value="1" checked/>
-                            <label for="freelancer-radio" class="ripple-effect-dark"><i class="la la-user"></i> <?php _e("Freelancer") ?></label>
+                            <label for="freelancer-radio" class="ripple-effect-dark"><i class="la la-user"></i> <?php _e("Stresslesser") ?></label>
                         </div>
                         <div>
                             <input type="radio" name="user-type" id="employer-radio" class="account-type-radio" value="2" />
-                            <label for="employer-radio" class="ripple-effect-dark"><i class="la la-suitcase"></i> <?php _e("Employer") ?></label>
+                            <label for="employer-radio" class="ripple-effect-dark"><i class="la la-suitcase"></i> <?php _e("Client") ?></label>
                         </div>
                     </div>
                     <span id="type-status"><?php if($type_error != ""){ _esc($type_error) ; }?></span>
