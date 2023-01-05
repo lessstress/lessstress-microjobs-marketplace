@@ -19,7 +19,7 @@ overall_header(__("Create New Company"));
                 <nav id="breadcrumbs" class="dark">
                     <ul>
                         <li><a href="<?php url("INDEX") ?>"><?php _e("Home") ?></a></li>
-                        <li><?php _e("Create New Company") ?></li>
+                        <li><?php _e("Create Company") ?></li>
                     </ul>
                 </nav>
             </div>
